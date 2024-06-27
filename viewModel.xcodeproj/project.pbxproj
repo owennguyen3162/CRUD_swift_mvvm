@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		466910122C2C6C5900C49895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910112C2C6C5900C49895 /* AppDelegate.swift */; };
 		466910142C2C6C5900C49895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910132C2C6C5900C49895 /* SceneDelegate.swift */; };
-		466910162C2C6C5900C49895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910152C2C6C5900C49895 /* ViewController.swift */; };
-		466910192C2C6C5900C49895 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 466910182C2C6C5900C49895 /* Base */; };
 		4669101B2C2C6C5A00C49895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4669101A2C2C6C5A00C49895 /* Assets.xcassets */; };
 		4669101E2C2C6C5A00C49895 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4669101D2C2C6C5A00C49895 /* Base */; };
+		466910292C2C6DD900C49895 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910272C2C6DD900C49895 /* HomeViewController.swift */; };
+		4669102A2C2C6DD900C49895 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466910282C2C6DD900C49895 /* HomeViewController.xib */; };
+		4669102D2C2C6EC300C49895 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669102C2C2C6EC300C49895 /* HomeViewModel.swift */; };
+		4669102F2C2C6FE300C49895 /* TableViewHome+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669102E2C2C6FE300C49895 /* TableViewHome+Extension.swift */; };
+		466910342C2C71CA00C49895 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910322C2C71CA00C49895 /* HomeTableViewCell.swift */; };
+		466910352C2C71CA00C49895 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466910332C2C71CA00C49895 /* HomeTableViewCell.xib */; };
+		4669103A2C2C786A00C49895 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910382C2C786A00C49895 /* AddUserViewController.swift */; };
+		4669103B2C2C786A00C49895 /* AddUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466910392C2C786A00C49895 /* AddUserViewController.xib */; };
+		4669103D2C2C7D0F00C49895 /* AddUser+imagePicker+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669103C2C2C7D0F00C49895 /* AddUser+imagePicker+extension.swift */; };
+		4669103F2C2C80F000C49895 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669103E2C2C80F000C49895 /* UserModel.swift */; };
+		466910432C2C8B9E00C49895 /* DetailUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466910422C2C8B9E00C49895 /* DetailUserViewController.xib */; };
+		466910442C2C8B9E00C49895 /* DetailUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466910412C2C8B9E00C49895 /* DetailUserViewController.swift */; };
+		70C807F7254D3185B9665E6F /* Pods_viewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DC34A17402F4FB50C18EB8 /* Pods_viewModel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36DC34A17402F4FB50C18EB8 /* Pods_viewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4669100E2C2C6C5900C49895 /* viewModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466910112C2C6C5900C49895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466910132C2C6C5900C49895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		466910152C2C6C5900C49895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		466910182C2C6C5900C49895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4669101A2C2C6C5A00C49895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4669101D2C2C6C5A00C49895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4669101F2C2C6C5A00C49895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466910272C2C6DD900C49895 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		466910282C2C6DD900C49895 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4669102C2C2C6EC300C49895 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4669102E2C2C6FE300C49895 /* TableViewHome+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewHome+Extension.swift"; sourceTree = "<group>"; };
+		466910322C2C71CA00C49895 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		466910332C2C71CA00C49895 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		466910382C2C786A00C49895 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		466910392C2C786A00C49895 /* AddUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddUserViewController.xib; sourceTree = "<group>"; };
+		4669103C2C2C7D0F00C49895 /* AddUser+imagePicker+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddUser+imagePicker+extension.swift"; sourceTree = "<group>"; };
+		4669103E2C2C80F000C49895 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		466910412C2C8B9E00C49895 /* DetailUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserViewController.swift; sourceTree = "<group>"; };
+		466910422C2C8B9E00C49895 /* DetailUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailUserViewController.xib; sourceTree = "<group>"; };
+		AAFACBB45ED23A85FDFB4E9B /* Pods-viewModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viewModel.debug.xcconfig"; path = "Target Support Files/Pods-viewModel/Pods-viewModel.debug.xcconfig"; sourceTree = "<group>"; };
+		D117BEC31B951105A5D44436 /* Pods-viewModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viewModel.release.xcconfig"; path = "Target Support Files/Pods-viewModel/Pods-viewModel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C807F7254D3185B9665E6F /* Pods_viewModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				466910102C2C6C5900C49895 /* viewModel */,
 				4669100F2C2C6C5900C49895 /* Products */,
+				E3E28E4DA22B671A8F671010 /* Pods */,
+				E3FA83BF07AC16EFDF78A695 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,98 @@
 		466910102C2C6C5900C49895 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
+				466910362C2C759A00C49895 /* Model */,
+				4669102B2C2C6EA200C49895 /* ViewModel */,
+				466910252C2C6DB600C49895 /* ViewController */,
 				466910112C2C6C5900C49895 /* AppDelegate.swift */,
 				466910132C2C6C5900C49895 /* SceneDelegate.swift */,
-				466910152C2C6C5900C49895 /* ViewController.swift */,
-				466910172C2C6C5900C49895 /* Main.storyboard */,
 				4669101A2C2C6C5A00C49895 /* Assets.xcassets */,
 				4669101C2C2C6C5A00C49895 /* LaunchScreen.storyboard */,
 				4669101F2C2C6C5A00C49895 /* Info.plist */,
 			);
 			path = viewModel;
+			sourceTree = "<group>";
+		};
+		466910252C2C6DB600C49895 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				466910402C2C8B8D00C49895 /* DetailUser */,
+				466910372C2C785700C49895 /* AddUser */,
+				466910262C2C6DC700C49895 /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		466910262C2C6DC700C49895 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				466910312C2C71B700C49895 /* Cell */,
+				466910272C2C6DD900C49895 /* HomeViewController.swift */,
+				466910282C2C6DD900C49895 /* HomeViewController.xib */,
+				4669102E2C2C6FE300C49895 /* TableViewHome+Extension.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4669102B2C2C6EA200C49895 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4669102C2C2C6EC300C49895 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		466910312C2C71B700C49895 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				466910322C2C71CA00C49895 /* HomeTableViewCell.swift */,
+				466910332C2C71CA00C49895 /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		466910362C2C759A00C49895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4669103E2C2C80F000C49895 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		466910372C2C785700C49895 /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				466910382C2C786A00C49895 /* AddUserViewController.swift */,
+				466910392C2C786A00C49895 /* AddUserViewController.xib */,
+				4669103C2C2C7D0F00C49895 /* AddUser+imagePicker+extension.swift */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		466910402C2C8B8D00C49895 /* DetailUser */ = {
+			isa = PBXGroup;
+			children = (
+				466910412C2C8B9E00C49895 /* DetailUserViewController.swift */,
+				466910422C2C8B9E00C49895 /* DetailUserViewController.xib */,
+			);
+			path = DetailUser;
+			sourceTree = "<group>";
+		};
+		E3E28E4DA22B671A8F671010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAFACBB45ED23A85FDFB4E9B /* Pods-viewModel.debug.xcconfig */,
+				D117BEC31B951105A5D44436 /* Pods-viewModel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3FA83BF07AC16EFDF78A695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36DC34A17402F4FB50C18EB8 /* Pods_viewModel.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 466910222C2C6C5A00C49895 /* Build configuration list for PBXNativeTarget "viewModel" */;
 			buildPhases = (
+				1694642F5BB0944989832726 /* [CP] Check Pods Manifest.lock */,
 				4669100A2C2C6C5900C49895 /* Sources */,
 				4669100B2C2C6C5900C49895 /* Frameworks */,
 				4669100C2C2C6C5900C49895 /* Resources */,
+				3EC08D8D0DC673091D358532 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +237,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466910432C2C8B9E00C49895 /* DetailUserViewController.xib in Resources */,
 				4669101B2C2C6C5A00C49895 /* Assets.xcassets in Resources */,
+				4669103B2C2C786A00C49895 /* AddUserViewController.xib in Resources */,
 				4669101E2C2C6C5A00C49895 /* Base in Resources */,
-				466910192C2C6C5900C49895 /* Base in Resources */,
+				466910352C2C71CA00C49895 /* HomeTableViewCell.xib in Resources */,
+				4669102A2C2C6DD900C49895 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1694642F5BB0944989832726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-viewModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC08D8D0DC673091D358532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viewModel/Pods-viewModel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viewModel/Pods-viewModel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-viewModel/Pods-viewModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4669100A2C2C6C5900C49895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466910162C2C6C5900C49895 /* ViewController.swift in Sources */,
+				466910342C2C71CA00C49895 /* HomeTableViewCell.swift in Sources */,
 				466910122C2C6C5900C49895 /* AppDelegate.swift in Sources */,
+				4669103D2C2C7D0F00C49895 /* AddUser+imagePicker+extension.swift in Sources */,
 				466910142C2C6C5900C49895 /* SceneDelegate.swift in Sources */,
+				466910292C2C6DD900C49895 /* HomeViewController.swift in Sources */,
+				4669103A2C2C786A00C49895 /* AddUserViewController.swift in Sources */,
+				466910442C2C8B9E00C49895 /* DetailUserViewController.swift in Sources */,
+				4669102D2C2C6EC300C49895 /* HomeViewModel.swift in Sources */,
+				4669103F2C2C80F000C49895 /* UserModel.swift in Sources */,
+				4669102F2C2C6FE300C49895 /* TableViewHome+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		466910172C2C6C5900C49895 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				466910182C2C6C5900C49895 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4669101C2C2C6C5A00C49895 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,16 +443,17 @@
 		};
 		466910232C2C6C5A00C49895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFACBB45ED23A85FDFB4E9B /* Pods-viewModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = viewModel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,16 +471,17 @@
 		};
 		466910242C2C6C5A00C49895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D117BEC31B951105A5D44436 /* Pods-viewModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = viewModel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
